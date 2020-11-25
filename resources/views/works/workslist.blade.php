@@ -132,7 +132,7 @@
 							
 							@php $i=0; @endphp
 							@foreach ($trabajos2 as $trabajo2)
-							<div class="songs-list">
+							<div class="songs-list" data-animate="fadeIn" data-delay="0">
 								<div class="songs-number">0{{++$i}}</div>
 								<div class="songs-image track-image">
 									@if ($trabajo2->type == 'video')
@@ -167,7 +167,7 @@
 						<div class="songs-lists-wrap">
 							@php $i=0; @endphp
 							@foreach ($trabajos3 as $trabajo3)
-							<div class="songs-list">
+							<div class="songs-list" data-animate="fadeIn" data-delay="0">
 								<div class="songs-number">0{{++$i}}</div>
 								<div class="songs-image track-image">
 									@if ($trabajo3->type == 'video')
