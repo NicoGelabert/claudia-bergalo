@@ -50,11 +50,10 @@
 </div>
 
 
-
 <div id="content">
     @include('partials.navbar')
 
-@yield('content')
+    @yield('content')
 </div>
 
 
@@ -176,10 +175,7 @@
 
         $(".mejs-track-artwork img").attr("src", "/preloader_media.gif");
         $(".mejs__playpause-button").hide();
-        setTimeout(function () {
-            changeAudio(audioTrack, posterUrl, trackTitle, trackSinger);
-
-        }, 1000);
+        changeAudio(audioTrack, posterUrl, trackTitle, trackSinger);
         return false;
     });
 
@@ -216,7 +212,7 @@
         jQuery('.track-list-demo').find('i').removeClass('icon-pause').addClass('icon-microphone1');
     });
 
-    audioPlayer.addEventListener("play", function(){
+    audioPlayer.addEventListener("play", function () {
         $(".mejs__playpause-button").show();
     })
 
@@ -265,8 +261,10 @@
             trackTitle = jQuery(this).attr('data-title'); // Track Title
         trackSinger = jQuery(this).attr('data-singer'); // Track Singer Name
 
+        $(".mejs-track-artwork img").attr("src", "/preloader_media.gif");
+        $(".mejs__playpause-button").hide();
 
-            changeAudio(audioTrack, posterUrl, trackTitle, trackSinger);
+        changeAudio(audioTrack, posterUrl, trackTitle, trackSinger);
 
         return false;
     });
