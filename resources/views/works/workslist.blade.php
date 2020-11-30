@@ -13,7 +13,7 @@
 					<div class="slider-caption justify-content-end">
 						<div>
 							<h2 class="font-primary nott">Publis 2020</h2>
-							<a href="https://www.youtube.com/watch?v=bvF3XBO7Pro" class="button button-rounded font-weight-normal ls1 mt-3 clearfix" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Escuchar reel</a>
+							<a href="https://www.youtube.com/watch?v=bvF3XBO7Pro" class="button button-rounded font-weight-normal ls1 mt-3 clearfix button-video" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Escuchar reel</a>
 						</div>
 					</div>
 				</div>
@@ -38,7 +38,7 @@
 				============================================= -->
 
 				<div class="container topmargin-lg clearfix" style="z-index: 7;">
-					
+
 					<div class="heading-block bottommargin-sm topmargin border-0 dark">
 						<h3 class="lazy lazy-loaded fancy-title title-center title-border bounce animated" data-animate="bounce">Los imperdibles</h3>
 						<span style="text-align: center">Click obligado</span>
@@ -56,11 +56,11 @@
 									<div class="bg-overlay">
 										@if ($trabajo->type == 'audio')
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="file:///C:/Claudia%20Bergalo/Package-HTML/HTML/demo-music-custom.html#" class="overlay-trigger-icon bg-dark text-ts text-light h-text-color track-list" data-track="{{$trabajo->url}}" data-poster="{{$trabajo->image}}" data-title="{{$trabajo->name}}" data-singer="{{$trabajo->category}}"data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-play"></i></a>
+											<a href="file:///C:/Claudia%20Bergalo/Package-HTML/HTML/demo-music-custom.html#" class="overlay-trigger-icon bg-dark text-ts text-light h-text-color track-list" data-track="{{$trabajo->url}}" data-poster="{{$trabajo->image}}" data-title="{{$trabajo->name}}" data-singer="{{$trabajo->category}}" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-play"></i></a>
 										</div>
 										@else
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-										<a href="{{$trabajo->url}}" class="overlay-trigger-icon bg-dark text-ts text-light h-text-color clearfix" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-line-play"></i></a>
+										<a href="{{$trabajo->url}}" class="overlay-trigger-icon bg-dark text-ts text-light h-text-color clearfix button-video" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-line-play"></i></a>
 										</div>
 										@endif
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
@@ -127,9 +127,9 @@
 							<span>Mis trabajos más recientes.</span>
 						</div>
 
-						
+
 						<div class="songs-lists-wrap">
-							
+
 							@php $i=0; @endphp
 							@foreach ($trabajos2 as $trabajo2)
 							<div class="songs-list" data-animate="fadeIn" data-delay="0">
@@ -182,7 +182,7 @@
 								<div class="songs-time">{{$trabajo3->length}}</div>
 							</div>
 							<div class="divider"><i class="icon-line-activity"></i></div>
-							@endforeach								
+							@endforeach
 						</div>
 					</div>
 
@@ -216,7 +216,7 @@
 													<h3>Via Crucis submarino</h3>
 												</div>
 												<div>
-												<a href="https://www.youtube.com/watch?v=xO-AYa4rEMk" class="button button-rounded font-weight-normal ls1 mt-3 clearfix" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Ver</a>
+												<a href="https://www.youtube.com/watch?v=xO-AYa4rEMk" class="button button-rounded font-weight-normal ls1 mt-3 clearfix button-video" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Ver</a>
 
 												</div>
 											</div>
@@ -227,7 +227,7 @@
 
 							<div class="col-md-6 px-0" data-animate="fadeIn" data-delay="50">
 								<div class="row mx-0 gutter-20">
-								
+
 									<div class="col-6">
 										<div class="grid-inner">
 											<img src="/storage/images/para-ver-y-escuchar/trolls.jpg" alt="Image">
@@ -239,7 +239,7 @@
 															<h3>Bridget - Trolls</h3>
 														</div>
 														<div>
-															<a href="https://www.youtube.com/watch?v=H5PuyEmVE_o" class="button button-mini button-rounded font-weight-normal ls1 mt-3 clearfix" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Ver</a>
+															<a href="https://www.youtube.com/watch?v=H5PuyEmVE_o" class="button button-mini button-rounded font-weight-normal ls1 mt-3 clearfix button-video" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Ver</a>
 														</div>
 													</div>
 												</div>
@@ -258,7 +258,7 @@
 															<h3>Fiesta Patronal Virgen de Fátima</h3>
 														</div>
 														<div>
-															<a href="https://www.youtube.com/watch?v=xO-AYa4rEMk" class="button button-mini button-rounded font-weight-normal ls1 mt-3 clearfix" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Ver</a>
+															<a href="https://www.youtube.com/watch?v=xO-AYa4rEMk" class="button button-mini button-rounded font-weight-normal ls1 mt-3 clearfix button-video" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Ver</a>
 														</div>
 													</div>
 												</div>
@@ -277,7 +277,7 @@
 															<h3>Doblaje</h3>
 														</div>
 														<div>
-															<a href="https://www.youtube.com/watch?v=VUCEpK19Ox4&t" class="button button-rounded font-weight-normal ls1 mt-3 clearfix" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Ver</a>
+															<a href="https://www.youtube.com/watch?v=VUCEpK19Ox4&t" class="button button-rounded font-weight-normal ls1 mt-3 clearfix button-video" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0"><i class="icon-play"></i>Ver</a>
 														</div>
 													</div>
 												</div>
