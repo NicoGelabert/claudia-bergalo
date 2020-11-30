@@ -217,6 +217,10 @@
     })
 
     function changeAudio(sourceUrl, posterUrl, trackTitle, trackSinger, playAudio = true) {
+
+        $(".mejs-track-artwork img").attr("src", posterUrl);
+        $(".mejs__playpause-button").show();
+
         var audio = $("#audio-player"),
             clickEl = jQuery('[data-track="' + sourceUrl + '"]'),
             playerId = audio.closest('.mejs__container').attr('id'),
