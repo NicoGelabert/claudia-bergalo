@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-11-2020 a las 22:13:14
+-- Tiempo de generación: 01-12-2020 a las 23:16:16
 -- Versión del servidor: 10.4.13-MariaDB
 -- Versión de PHP: 7.4.8
 
@@ -133,10 +133,11 @@ INSERT INTO `works` (`id`, `name`, `type`, `category`, `length`, `location`, `ur
 (19, 'Demo publicidad', 'audio', 'publicidad', '00:57', 'demo', '/storage/audios/democlau/demopublicidad.mp3', '/storage/images/democlau/demopublicidad.jpg', NULL, NULL),
 (20, 'Demo Acting', 'audio', 'acting', '00:54', 'demo', '/storage/audios/democlau/demoacting.mp3', '/storage/images/democlau/demoacting.jpg', NULL, NULL),
 (21, 'Demo Niñ@s', 'audio', 'Voces de niñ@s', '00:53', 'demo', '/storage/audios/democlau/demoninios.mp3', '/storage/images/democlau/demoninios.jpg', NULL, NULL),
-(22, 'Via Crucis submarino', 'video-grande', 'FA!', '49:30', 'para-ver-y-escuchar', 'https://www.youtube.com/watch?v=xO-AYa4rEMk', '/storage/images/para-ver-y-escuchar/fiestas-001.jpg', NULL, NULL),
-(23, 'Bridget, Trolls', 'video-chico', 'Doblaje cantado', '01:56', 'para-ver-y-escuchar', 'https://www.youtube.com/watch?v=H5PuyEmVE_o&t', '/storage/images/para-ver-y-escuchar/Trolls.jpg', NULL, NULL),
-(24, 'Fiesta Patronal Virgen de Fátima', 'video-chico', 'FA!', '01:56', 'para-ver-y-escuchar', 'https://www.youtube.com/watch?v=2xvYpRs4PJk&t', '/storage/images/para-ver-y-escuchar/fiestas-002.jpg', NULL, NULL),
-(25, 'Doblaje', 'video-mediano', 'Demo', '02:54', 'para-ver-y-escuchar', 'https://www.youtube.com/watch?v=VUCEpK19Ox4&t', '/storage/images/para-ver-y-escuchar/doblaje-demo.jpg', NULL, NULL);
+(22, 'Guía de adiestramiento de cachorros para niñ@s', 'audio', 'Lucy Williams', '00:57', 'audiolibros', '/storage/audios/audiolibros/guia-de-adiestramiento-de-cachorros-para-ninxs.mp3', '/storage/images/audiolibros/guia-de-adiestramiento-de-cachorros-para-ninxs.jpg', NULL, NULL),
+(23, 'Los peces de octubre', 'audio', 'Alvaro Morales Aguilar', '01:22', 'audiolibros', '/storage/audios/audiolibros/los-peces-de-octubre.mp3', '/storage/images/audiolibros/los-peces-de-octubre.jpg', NULL, NULL),
+(24, 'Coro', 'audio', 'Angélica Gorodischer', '01:00', 'audiolibros', '/storage/audios/audiolibros/coro.mp3', '/storage/images/audiolibros/coro.jpg', NULL, NULL),
+(25, 'El deseo prohibido de Doug', 'audio', 'Darlis Stefany', '03:19', 'audiolibros', '/storage/audios/audiolibros/el-deseo-prohibido-de-doug.mp3', '/storage/images/audiolibros/el-deseo-prohibido-de-doug.jpg', NULL, NULL),
+(26, 'Los miedos de Ethan', 'audio', 'Darlis Stefany', '01:06', 'audiolibros', '/storage/audios/audiolibros/los-miedos-de-ethan.mp3', '/storage/images/audiolibros/los-miedos-de-ethan.jpg', NULL, NULL);
 
 --
 -- Índices para tablas volcadas
@@ -200,7 +201,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `works`
 --
 ALTER TABLE `works`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

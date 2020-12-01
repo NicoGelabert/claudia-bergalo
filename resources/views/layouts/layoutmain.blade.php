@@ -30,7 +30,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!-- Theme color -->
-    <link rel="stylesheet" href=" {{ asset('/css/colors.php?color=ed215e') }}" type="text/css"/>
+    <link rel="stylesheet" href=" {{ asset('/css/colors.php?color=8A4493') }}" type="text/css"/>
 
     <!-- Audio Player Plugin CSS -->
     <link rel="stylesheet" href=" {{ asset('/css/mediaelement/mediaelementplayer.css') }}">

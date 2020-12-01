@@ -14,6 +14,7 @@ class WorkController extends Controller
         $trabajos3 = Work::where('location', '=', 'mezcladito')->get();
         $trabajos4 = Work::where('location', '=', 'demo')->get();
         $trabajos5 = Work::where('location', '=', 'para-ver-y-escuchar')->get();
-        return view('works.workslist')->with('trabajos', $trabajos)->with('trabajos2', $trabajos2)->with('trabajos3', $trabajos3)->with('trabajos4', $trabajos4)->with('trabajos5', $trabajos5);
+        $trabajos6 = Work::where('location', '=', 'audiolibros')->get();
+        return view('works.workslist')->with('trabajos', $trabajos)->with('trabajos2', $trabajos2)->with('trabajos3', $trabajos3)->with('trabajos4', $trabajos4)->with('trabajos5', $trabajos5)->with('trabajos6', $trabajos6);
     }
 }

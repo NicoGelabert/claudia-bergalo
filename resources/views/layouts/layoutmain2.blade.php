@@ -31,7 +31,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Theme color -->
-    <link rel="stylesheet" href=" {{ asset('/css/colors.php?color=ed215e') }}" type="text/css" />
+    <link rel="stylesheet" href=" {{ asset('/css/colors.php?color=8A4493') }}" type="text/css" />
 
     <!-- Audio Player Plugin CSS -->
     <link rel="stylesheet" href=" {{ asset('/css/mediaelement/mediaelementplayer.css') }}">
@@ -41,8 +41,22 @@
 
 <body class="stretched">
 
-@include('partials.navbar')
-@yield('content')
+<div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section">
+        <img src="preloader.gif" alt="">
+
+    </div>
+
+</div>
+
+<div id="content">
+    @include('partials.navbar')
+
+    @yield('content')
+</div>
+
 @include('partials.footer2')
 
     
@@ -62,6 +76,8 @@
     <script>
 
 		jQuery(window).on( 'load', function(){
+			
+			$("#loader-wrapper").hide();
 
 			let $container = $('#posts');
 
