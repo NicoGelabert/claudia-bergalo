@@ -29,6 +29,11 @@ Route::get('/sobremi', function (){
     return view('sobremi');
 });
 
+//Servicios//
+Route::get('/servicios', function (){
+    return view('servicios');
+});
+
 //Contacto//
 Route::get('contacto', function(){
     return view('contacto');

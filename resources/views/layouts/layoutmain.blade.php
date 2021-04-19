@@ -30,10 +30,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!-- Theme color -->
-    <link rel="stylesheet" href=" {{ asset('/css/colors.php?color=8A4493') }}" type="text/css"/>
+    <link rel="stylesheet" href=" {{ asset('/css/colors.php?color=E8307D') }}" type="text/css"/>
 
     <!-- Audio Player Plugin CSS -->
     <link rel="stylesheet" href=" {{ asset('/css/mediaelement/mediaelementplayer.css') }}">
+    <link rel=”shortcut icon” type=”image/png” href=”/storage/images/brand/favicon.png”/>
+    
     <title>{{ config('app.name', 'Claudia Bergalo') }}</title>
 </head>
 

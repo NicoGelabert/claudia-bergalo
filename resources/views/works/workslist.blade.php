@@ -90,7 +90,7 @@
 
 								<div class="row col-mb-50">
 								@foreach ($trabajos4 as $trabajo4)
-									<div class="col-sm-6 col-lg-4">
+									<div class="col-sm-6 col-lg-3">
 										<div class="feature-box fbox-center fbox-border fbox-dark fbox-effect border-0 fbox-lg">
 											<div class="fbox-icon">
 											<a href="file:///C:/Claudia%20Bergalo/Package-HTML/HTML/demo-music-custom.html#" class="track-list-demo" data-track="{{$trabajo4->url}}" data-poster="{{$trabajo4->image}}" data-title="{{$trabajo4->name}}" data-singer="{{$trabajo4->category}}"><i class="icon-microphone1"></i></a>
@@ -112,57 +112,7 @@
 				<!-- Fin Demos
 				============================================= -->
 				
-				<!-- Inicio servicios
-				============================================= -->
-
-				<div class="container topmargin-lg clearfix" style="z-index: 7;">
-
-					<div class="heading-block bottommargin-sm topmargin border-0 dark">
-						<h3 class="lazy lazy-loaded fancy-title title-center title-border bounce animated" data-animate="bounce">Servicios</h3>
-						<!-- <span style="text-align: center">Click obligado</span> -->
-					</div>
-					
-					<div class="tabs side-tabs mb-0 clearfix" id="tab-6">
-
-								<ul class="tab-nav tab-nav2 clearfix">
-									<li><a href="#tabs-21"><i class="icon-line2-microphone"></i> Estudio de grabación profesional</a></li>
-									<li><a href="#tabs-22"><i class="icon-line2-note"></i> Traducción y adaptación</a></li>
-									<li><a href="#tabs-23"><i class="icon-line2-rocket"></i> Rendimiento de voz</a></li>
-								</ul>
-
-								<div class="tab-container">
-
-									<div class="tab-content clearfix" id="tabs-21">
-										<ul>
-											<li><i class="icon-line-chevron-right small"></i> Cabina acústica e insonorizada</li>
-											<li><i class="icon-line-chevron-right small"></i> Mic: AKG C214 / AUDIO TECHNICA AT2020</li>
-											<li><i class="icon-line-chevron-right small"></i> Placa: FOCUSRITE SCARLETT 2i4</li>
-											<li><i class="icon-line-chevron-right small"></i> Pre amp: PRESONUS</li>
-											<li><i class="icon-line-chevron-right small"></i> Compu: MAC</li>
-											<li><i class="icon-line-chevron-right small"></i> Softwarwe: PROTOOLS 10</li>
-										</ul>
-									</div>
-									<div class="tab-content clearfix" id="tabs-22">
-										Puedo hacer tu proyecto en forma integral: <br>
-										Realizo todo tipo de grabaciones de voz, tutoriales, e-learning, IVR, audiolibros, locución publicitaria y doblaje en castellano neutro y rioplatense. <br>
-										También brindo servicio en la realización de traducciones y adaptaciones de textos en inglés, portugués y francés. Edición y entrega en el día, en el formato que requieras.
-									</div>
-									<div class="tab-content clearfix" id="tabs-23">
-										Soy una locutora versátil, al ser locutora y actriz de doblaje puedo pasar por todos los registros: voces de niñxs, adolecentes, jóvenes y adultos. Tengo la capacidad de modificar mis intenciones para sonar urbana, maternal, sensual, corporativa o amigable. ¡Caricaturas y más!
-									</div>
-
-								</div>
-
-							</div>
-
-					<div class="row topmargin-lg dark clearfix">
-					</div>
-
-				</div>
-
-				<!-- Fin servicios
-				============================================= -->
-
+				
 				<!-- Inicio últimos y mezcladito
 				============================================= -->
 
@@ -186,7 +136,7 @@
 								<div class="songs-number">0{{++$i}}</div>
 								<div class="songs-image track-image">
 									@if ($trabajo2->type == 'video')
-									<a href="{{$trabajo2->url}}" class="text-ts text-light h-text-color clearfix" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0">
+									<a href="{{$trabajo2->url}}" class="text-ts text-light h-text-color clearfix button-video" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0">
 									<img src="{{$trabajo2->image}}" alt="{{$trabajo2->name}}"><span><i class="icon-play"></i></span></a>
 									@else
 									<a href="file:///C:/Claudia%20Bergalo/Package-HTML/HTML/demo-music-custom.html#" class="track-list" data-track="{{$trabajo2->url}}" data-poster="{{$trabajo2->image}}" data-title="{{$trabajo2->name}}" data-singer="{{$trabajo2->category}}">
@@ -221,7 +171,7 @@
 								<div class="songs-number">0{{++$i}}</div>
 								<div class="songs-image track-image">
 									@if ($trabajo3->type == 'video')
-									<a href="{{$trabajo3->url}}" class="text-ts text-light h-text-color clearfix" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0">
+									<a href="{{$trabajo3->url}}" class="text-ts text-light h-text-color clearfix button-video" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe" data-disable-under="0">
 									<img src="{{$trabajo3->image}}" alt="{{$trabajo3->name}}"><span><i class="icon-play"></i></span></a>
 									@else
 									<a href="file:///C:/Claudia%20Bergalo/Package-HTML/HTML/demo-music-custom.html#" class="track-list" data-track="{{$trabajo3->url}}" data-poster="{{$trabajo3->image}}" data-title="{{$trabajo3->name}}" data-singer="{{$trabajo3->category}}">

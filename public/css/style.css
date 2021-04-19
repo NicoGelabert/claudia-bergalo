@@ -405,8 +405,8 @@ span.middot {
 .bgicon {
 	display: block;
 	position: absolute;
-	bottom: -60px;
-	right: -50px;
+	bottom: -43px;
+	right: 30px;
 	font-size: 210px;
 	color: rgba(0,0,0,0.1);
 }
@@ -2447,7 +2447,7 @@ img.lazy:not([src]) {
 .section-parallax {
 	position: relative;
 	width: 100%;
-	margin: 60px 0;
+	margin: 60px 0 0 0;
 	padding: 60px 0 60px 0;
 	background-color: #F9F9F9;
 	overflow: hidden;
@@ -3289,7 +3289,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 .svg-trigger path {
 	fill: none;
 	transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-	stroke: #8A4493;
+	stroke: #E8307D;
 	stroke-width: 5;
 	stroke-linecap:round;
 }
@@ -3334,7 +3334,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	display: block;
 	line-height: 22px;
 	padding: 14px 5px;
-	color: #8A4493;
+	color: #E8307D;
 	font-weight: 700;
 	font-size: 0.8125rem;
 	letter-spacing: 1px;
@@ -3358,7 +3358,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item:hover > .menu-link,
 .menu-item.current > .menu-link {
-	color: #8A4493;
+	color: #E8307D;
 }
 
 .menu-item.sub-menu > .menu-link > div { }
@@ -4505,7 +4505,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	font-size: 1.125rem;
 	line-height: 20px;
 	text-align: center;
-	color: #8A4493;
+	color: #E8307D;
 	-webkit-transition: color .3s ease-in-out;
 	-o-transition: color .3s ease-in-out;
 	transition: color .3s ease-in-out;
@@ -4863,7 +4863,7 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #8A4493;
+	background-color: #E8307D;
 	transform: translateZ(0);
 	-webkit-backface-visibility: hidden;
 }
@@ -6133,7 +6133,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	line-height: 1;
 	font-weight: 600;
 	letter-spacing: 1px;
-	color: #8A4493;
+	color: #E8307D;
 	font-size: 2rem;
 	text-transform: uppercase;
 }
@@ -6352,6 +6352,11 @@ body:not(.has-plugin-html5video) .video-wrap video {
 .content-wrap {
 	position: relative;
 	padding: 80px 0;
+	overflow: hidden;
+}
+.content-wrap-servicios {
+	position: relative;
+	padding: 80px 0 0 0;
 	overflow: hidden;
 }
 
@@ -6643,7 +6648,7 @@ body:not(.device-touch) .portfolio {
 }
 
 .portfolio-desc h3 a:hover {
-	color: #8A4493;
+	color: #E8307D;
 }
 
 .portfolio-desc span {
@@ -8518,13 +8523,13 @@ td.actions {
 }
 
 .boton{
-	color: #8A4493;
-	border: 2px solid #8A4493;
+	color: #E8307D;
+	border: 2px solid #E8307D;
 	background-color: #fff !important;
 }
 .boton:hover{
 	color: #fff;
-	background-color: #8A4493 !important;
+	background-color: #E8307D !important;
 }
 
 body:not(.device-touch) .button {
@@ -8544,7 +8549,7 @@ body:not(.device-touch) .button {
 }
 
 .button:hover {
-	background-color: #8A4493;
+	background-color: #E8307D;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
@@ -9478,7 +9483,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-border.fbox-dark .fbox-icon a { border-color: #333; }
 
 .fbox-border.fbox-dark .fbox-icon i,
-.fbox-border.fbox-dark .fbox-icon img { color: #8A4493; }
+.fbox-border.fbox-dark .fbox-icon img { color: #E8307D; }
 
 
 /* Feature Box - Plain
@@ -16251,6 +16256,6 @@ label.checkbox { padding-left: 20px; }
 }
 
 .icono-plus{
-	color: #8A4493;
+	color: #E8307D;
 	font-size: xx-large;
 }

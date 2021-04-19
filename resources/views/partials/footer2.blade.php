@@ -10,7 +10,7 @@
 					<div class="row col-mb-30">
 
 						<div class="col-md-6 text-center text-md-left">
-							<img src="/storage/images/isologotipo-Claudia-Bergalo.png" style="height:75px" alt=""><br>
+							<img src="/storage/images/brand/isologotipo-Claudia-Bergalo.png" style="height:75px" alt=""><br>
 							Copyrights &copy; 2020 Todos los derechos reservados
 						</div>
 

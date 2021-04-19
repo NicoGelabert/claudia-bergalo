@@ -10,7 +10,7 @@
 						============================================= -->
 						<div id="logo">
 							<a href="/" class="standard-logo" data-dark-logo="/storage/images/brand/isologotipo-Claudia-Bergalo.png"><img src="/storage/images/brand/isologotipo-Claudia-Bergalo.png" alt="Canvas Logo"></a>
-							<a href="/" class="retina-logo" data-dark-logo="/storage/images/brand/isotipo-Claudia-Bergalo.png"><img src="/storage/images/brand/isotipo-Claudia-Bergalo.png" alt="Canvas Logo"></a>
+							<a href="/" class="retina-logo" data-dark-logo="/storage/images/brand/isologotipo-Claudia-Bergalo.png"><img src="/storage/images/brand/isologotipo-Claudia-Bergalo.png" alt="Canvas Logo"></a>
 						</div><!-- #logo end -->
 
 						<div id="primary-menu-trigger">
@@ -26,7 +26,7 @@
                                 
                                 <li class="menu-item"><a class="menu-link" href="/sobremi"><div>Sobre mí</div></a></li>
                                 
-                                
+                                <li class="menu-item"><a class="menu-link" href="/servicios"><div>Servicios</div></a></li>
                                 
                                 <li class="menu-item"><a class="menu-link" href="/contacto"><div>Contacto</div></a></li>
                             </ul>
